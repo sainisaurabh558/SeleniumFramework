@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression" thread-count="1"  parallel="none" verbose="3">
+<listeners>
+		<listener class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+		<listener class-name="com.qa.Helper.listeners.TestAllureListener" />
+		<listener class-name="com.qa.Helper.listeners.AnnotationTransformer"/>
+		<!--
+		<listener class-name="com.opencart.qa.listeners.AnnotationTransformer" />
+		-->
+	</listeners>
+	<!-- 
+  <test name="AllTest1">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.qa.Helper.tests.LoginPageTest"></class>   
+        </classes>
+    </test>
+    <test name="AllTest2">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+              <class name="com.qa.Helper.tests.HomePageTest"></class>
+        </classes>
+    </test>
+    <test name="AllTest3">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+              <class name="com.qa.Helper.tests.ResultsPageTest"></class>
+        </classes>
+    </test>
+    <test name="AllTest4">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+              <class name="com.qa.Helper.tests.ProductInfoPageTest"></class>
+        </classes>		
+    </test>
+   -->
+     <test name="AllTest5">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+              <class name="com.qa.Helper.tests.RegisterPageTest"></class>
+        </classes>
+    </test>
+</suite>
