@@ -8,7 +8,7 @@
 		<listener class-name="com.opencart.qa.listeners.AnnotationTransformer" />
 		-->
 	</listeners>
-	<!-- 
+	
   <test name="AllTest1">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
@@ -33,7 +33,7 @@
               <class name="com.qa.Helper.tests.ProductInfoPageTest"></class>
         </classes>		
     </test>
-   -->
+
      <test name="AllTest5">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
