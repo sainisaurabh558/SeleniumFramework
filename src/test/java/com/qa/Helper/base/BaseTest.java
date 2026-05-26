@@ -30,6 +30,7 @@ public class BaseTest {
 	protected ResultsPage resultsPage;
 	protected RegisterPage registerPage;
 
+	//testing comment
 	@Parameters({ "browser" })
 	@BeforeTest
 	public void SetUp(@Optional("Chrome") String parabrowserName) throws IOException {
