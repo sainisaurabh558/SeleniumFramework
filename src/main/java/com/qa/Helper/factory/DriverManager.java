@@ -88,7 +88,8 @@ public class DriverManager {
 				System.out.println("selected environment"+envir);
 			}
 				else	if (envir.equalsIgnoreCase("dev")) {
-					fis = new FileInputStream("./src/test/resources/config/qa.properties");
+					fis = new FileInputStream("./src/test/resources/config/config.qa.properties");
+	
 					System.out.println("selected environment"+envir);
 			} else if (envir.equalsIgnoreCase("stage")) {
 				fis = new FileInputStream("./src/test/resources/config/config.stage.properties");
