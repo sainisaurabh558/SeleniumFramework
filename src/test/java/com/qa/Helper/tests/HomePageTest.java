@@ -18,7 +18,7 @@ public class HomePageTest extends BaseTest {
 
 	@BeforeClass
 	public void homePageSetup() {
-//Just for ngrok autotriggering
+
 		homePage = loginPage.doHomePageLogin(prop.getProperty("Username").trim(), prop.getProperty("Password").trim());
 	}
 
