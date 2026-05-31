@@ -77,7 +77,6 @@ public class DriverManager {
 	 */
 
 	// mvn test -Denv = "qa"
-	//COMMIT
 	public Properties initProperties() {
 		prop = new Properties();
 		FileInputStream fis = null;
@@ -113,5 +112,9 @@ public class DriverManager {
 		}
 		return prop;
 
+	}
+	void hello()
+	{
+		System.out.println("hello");
 	}
 }
