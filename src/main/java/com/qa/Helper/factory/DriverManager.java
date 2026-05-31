@@ -77,6 +77,7 @@ public class DriverManager {
 	 */
 
 	// mvn test -Denv = "qa"
+	//COMMIT
 	public Properties initProperties() {
 		prop = new Properties();
 		FileInputStream fis = null;
@@ -91,8 +92,8 @@ public class DriverManager {
 					fis = new FileInputStream("./src/test/resources/config/config.qa.properties");
 	
 					System.out.println("selected environment"+envir);
-			} else if (envir.equalsIgnoreCase("stage")) {
-				fis = new FileInputStream("./src/test/resources/config/config.stage.properties");
+			} else {
+				fis = new FileInputStream("./src/test/resources/config/config.properties");
 				System.out.println("selected environment"+envir);
 			}
 		} catch (FileNotFoundException fe) {
